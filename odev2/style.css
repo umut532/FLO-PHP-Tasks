@@ -1,0 +1,48 @@
+    #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1.5rem;
+    
+     }
+  
+    #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    }
+  
+    #customers tr:nth-child(even){background-color: #f2f2f2;}
+    
+    #customers tr:hover {background-color: #ddd;}
+    
+    #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #FF528F;
+        color: white;
+    }
+
+    .successBtn{
+       
+        border: 2px solid #FF528F;
+        border-radius: 1.5rem;
+        position: absolute;
+        margin-top: 1em;
+        right: 4.5rem;
+        
+    }
+
+    .number-input{
+        margin-left: 1px;
+        width: 50%;
+        margin-left: 2.3rem;
+        
+
+
+
+    }
+
+  
+
+
