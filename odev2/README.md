@@ -1,5 +1,5 @@
-# FLO-PHP-FirstTask
-Flo php Bootcamp first task.
+# FLO-PHP-2.Ödev
+Flo php Bootcamp 2.ödev
 <hr>
-<img src="https://i.hizliresim.com/5i8wvbk.png" align="center"/>
-<img src="https://i.hizliresim.com/hzj656i.png" align="center"/>
+<img src="https://i.hizliresim.com/5cjn332.png" align="center"/>
+
