@@ -1,4 +1,4 @@
-# FLO-PHP-FirstTask
+# FLO-PHP-FirstTasks
 
 
 Flo php Bootcamp Ödevleri <hr>
