@@ -1,0 +1,191 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.formImage{
+            
+    background-image: url("../img/background.jpg");      
+    height: 678px;
+    width: 100%;
+            
+            
+    background-size: cover;
+    position: relative;
+}
+.container-text {
+    position: absolute;
+            
+    color: white;
+}
+a{
+    color: gray;
+    text-decoration:none;
+    
+}
+.containerInput{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.inoText{
+    color: rgb(80, 73, 73);
+}
+.container{
+    background-color: #f6f6f9;
+    box-shadow: 10px 10px hsl(120, 100%, 25%);;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 180%;
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 3rem;
+}
+.backButton{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.p1{
+    margin-top: 5px;
+    font-size: 8px;
+    font-weight:initial;
+}
+.alert{
+    margin: 0 auto;
+    color: red;
+    font-size: 13px;
+    width: 100%;
+    height: 5px;
+    margin-left: 181%;
+    margin-top: 2px;
+    padding-bottom: 2px;
+    
+}
+.success{
+    margin: 0 auto;
+    color: green;
+    font-size: 13px;
+    width: 100%;
+    height: 5px;
+    margin-left: 181%;
+    margin-top: 12px;
+    padding-bottom: 2px;
+}
+
+
+.inputText{
+    color: black;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 70%;
+    height: 4rem;
+    margin-top: 2rem;
+    border: solid 1px black;
+    border-radius: 1rem;
+    opacity: 0.9;
+}
+
+.form{
+    margin-top: 50px;
+}
+.loginButton{
+    color: white;
+    background-color: green;
+    border: 1px solid white;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    width: 50%;
+    height: 4rem;
+}
+.loginButton:hover{
+    color: white;
+    background-color: rgb(1, 75, 1);
+}
+
+.registerButton{
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    width: 50%;
+    height: 4rem;
+}
+.registerButton:hover{
+    color: white;
+    background-color: green;
+}
+/*list style*/
+.main-content{
+    background-color:#f3f6f4;
+    padding: 3% 0;
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+/* .btn-primary{
+    background-color:  #777eee;
+    padding: 1%;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+}
+.btn-primary:hover{
+    background-color: #f3f6f4;
+    color: #777eee;
+    border: 1.5px solid #777eee;
+} */
+
+
+/* .btn-secondary{
+    background-color:  #777eee;
+    padding: 1%;
+    margin-right: 10px;
+    border-radius: 1px;
+    color: white;
+    text-decoration: none;
+}
+.btn-secondary:hover{
+    background-color: #3b3f77;
+    color: white;
+}
+
+.btn-danger{ /* #e6333d #ee777e; 
+    background-color:  #ee777e;
+    padding: 1%;
+   
+    margin-right: 10px;
+    border-radius: 1px;
+    color: white;
+    text-decoration: none;
+}
+.btn-danger:hover{
+    background-color: #e6333d;
+    color: white;
+    border-bottom: 2px solid #e6333d;
+}
+.btn-submit{
+    background-color:  #7eee77;
+    padding: 4%;
+    width: 21rem;
+    margin-right: 10px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+}
+.btn-submit:focus{
+    background-color:  white;
+    color: #7eee77;
+    border: 1px solid #7eee77;
+} */
+.text.center{
+    text-align: center;
+}

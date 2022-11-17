@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    width: 100%;
+    
+}
+
+.tbl-30 {
+    width: 40%;
+}
+.tbl-40{
+    width: 40%;
+}
+table tr th{
+    padding: 2%;
+    padding-bottom: 6px;
+}
+.managetable{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    
+   
+}
+/* table th {
+    border: 1px solid black;
+} */
+
+.underline{
+    border-bottom: 1px solid black;
+    width: 21rem;
+    margin-top: 5px;
+}
+
+.form1{
+    margin-top: 5px;
+    border: 0.5px solid #777eee;
+    border-radius: 4px;
+    height: 30px;
+    width: 15rem;
+    margin-left: 20px;
+}
+.form1:hover{
+    border: 0.5px solid black;
+}
+.btn-primary{
+    position: relative;
+    right: 10px;
+    background-color:  #777eee;
+    padding: 1%;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    
+}
+.btn-primary:hover{
+    background-color: #f3f6f4;
+    color: #777eee;
+    border: 1.5px solid #777eee;
+}
+
+.btn-secondary{
+    background-color:  #777eee;
+    padding: 2%;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    
+}
+.btn-secondary:hover{
+    background-color: #3b3f77;
+    color: white;
+    border-bottom: 2px solid #3b3f77;
+}
+
+.btn-danger{ /* #e6333d #ee777e; */
+    background-color:  #ee777e;
+    padding: 2%;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.btn-danger:hover{
+    background-color: #e6333d;
+    color: white;
+    border-bottom: 2px solid #e6333d;
+}
+
+.btn-submit{
+    background-color:  #777eee;
+    padding: 2%;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    width: 15.3rem;
+    height: 40px;
+    margin-left: 9.75rem;
+}
+
+.btn-submit:hover{
+    background-color: #3b3f77;
+    color: white;
+    border-bottom: 2px solid #3b3f77;
+}
+table tr td{
+    padding: 1%;
+}
+
+/*css for main-content */
+.main-content{
+    
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+.successFont{
+    color: #7eee77;
+    margin-left: 1rem;
+
+}
+.text-area{
+    margin-top: 3px;
+    border: 0.5px solid #777eee;
+    border-radius: 4px;
+    height: 30px;
+    width: 15rem;
+    margin-left: 0;
+
+
+}
+.text-area:hover{
+    border: 0.5px solid #7eee77;
+
+}
+.header{
+    position: relative;
+    background-color: black;
+    color: white;
+    height: 2.75rem;
+    margin-top: 5px;
+    
+}
+.icon{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.userText{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    margin-top: 0.8rem;
+}
+
+.header a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.text-left{
+    text-align: left;
+    padding-left: 67px;
+}
