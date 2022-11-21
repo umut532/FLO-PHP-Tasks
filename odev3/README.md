@@ -9,7 +9,7 @@ Altta resimlerde de görüldüğü gibi uygulamadaki tüm objeler aktif olarak �
 
 <hr>
 <img src="https://i.hizliresim.com/r6r0xsw.png" align="center"/>
-<img src="https://i.hizliresim.com/69fjf16.png" align="center"/>
+<img src="https://i.hizliresim.com/3uopp41.png" align="center"/>
 <img src="https://i.hizliresim.com/12a6o3n.png" align="center"/>
 <img src="https://i.hizliresim.com/q877vzq.png" align="center"/>
 <img src="https://i.hizliresim.com/7i6c1vh.png" align="center"/>
