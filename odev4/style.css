@@ -1,0 +1,52 @@
+table{
+    border: 1px solid black;
+}
+
+table tr th{
+    padding: 2%;
+    padding-bottom: 6px;
+}
+table tr td{
+    padding: 1%;
+}
+input{
+    width: 25rem;
+    border: 1.7px solid black;
+    margin-top: 7px;
+}
+
+/* .main-content{
+    background-color:#f3f6f4;
+    padding: 3% 0;
+} */
+
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.tbl-full{
+    width: 100%;
+    
+}
+.text-left{
+    text-align: left;
+    padding-left: 55px;
+}
+.managetable{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.loginButton{
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    text-align: center;
+   
+    width: 15rem;
+    
+}
