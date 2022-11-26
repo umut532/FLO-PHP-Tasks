@@ -5,7 +5,7 @@ class WebSitesi
     private $DbCon;
     private $registerPerm;
 
-    function __construct()
+    public function __construct()
     {
         $this->userName = isset($_POST['userName']) ? $_POST['userName'] : null;
         $this->nationalId = isset($_POST['nationalId']) ? $_POST['nationalId'] : null;
@@ -25,7 +25,7 @@ class WebSitesi
         }
     }
 
-    function selectData()
+    public function selectData()
     {
         $query = $this->DbCon->query("select * from customer", PDO::FETCH_ASSOC);
         echo "<div class='main-content'>
@@ -54,7 +54,7 @@ class WebSitesi
         </div>";
     }
 
-    function dataAdd($receivedData)
+    public function dataAdd($receivedData)
     {
         $durum = $receivedData;
         echo $this->registerPerm;
@@ -83,7 +83,7 @@ class WebSitesi
     //     }
     // }
 
-    function control()
+    public function control()
     {
         $conn = self::__construct();
 
@@ -140,7 +140,7 @@ class WebSitesi
         }
     }
 
-    function controlIki()
+    public function controlIki()
     {
         $n = $this->nationalId;
         $x = $n;
