@@ -66,23 +66,6 @@ class WebSitesi
         }
     }
 
- // Çalışıyor fakat bazen en son kalan sorguyu çektiği için eşleşemiyor ve veritabanına ekliyor ....
-    // function nationlIdControl(){
-    //     $sql = $this->DbCon->query("select * from customer" ,PDO::FETCH_ASSOC);
-    //     foreach ($sql as $value) {
-    //        // echo $value['nationalId'] . "<br>";
-    //        // echo $this->nationalId;
-    //         if ($value["nationalId"] == $this->nationalId) {
-    //             echo $this->registerPerm = "true";
-    //             break;
-    //         }
-    //         else {
-    //             echo $this->registerPerm = "false";
-    //             break;
-    //         }
-    //     }
-    // }
-
     public function control()
     {
         $conn = self::__construct();
@@ -151,14 +134,6 @@ class WebSitesi
             $toplam = $toplam + $rem;
             $n[$i] = $n[$i] / 10;
         }
-        //echo $toplam;
-        
-        //$k = $this->nationalId;
-        // $toplam3 = 0;
-        // $basamak2 = 0;
-        //echo $rem ." sstoplam <br>";
-        //echo $toplam % 10 ." mod <br>";
-        // echo $n ." gelen sayı <br>";
 
         for ($i = 0; $i <= strlen($n); $i++) {
            
