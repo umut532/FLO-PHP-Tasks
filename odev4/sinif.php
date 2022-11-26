@@ -91,11 +91,11 @@ class WebSitesi
             echo constants::$notNumeric . "<br>";
         }
 
-        if (substr($this->nationalId, 0, 1) == 0) {
+        else if (substr($this->nationalId, 0, 1) == 0) {
             echo constants::$firstCharacter . "<br>";
         }
 
-        if (strlen($this->nationalId) != 11) {
+        else if (strlen($this->nationalId) != 11) {
             echo constants::$nationalIdCharacters . "<br>";
         }
         else {
